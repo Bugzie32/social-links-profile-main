@@ -73,6 +73,12 @@ img {
 	margin: 1rem 0;
 }
 
+.links:hover {
+	background-color: hsl(75, 94%, 57%);
+	color: hsl(0, 0%, 12%);
+	font-weight: 600;
+}
+
 .last {
 	margin-bottom: 0;
 }
@@ -81,7 +87,14 @@ img {
 	margin-top: 2rem;
 	font-size: 11px;
 	text-align: center;
+	color: white;
 }
 .attribution a {
 	color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 382px) {
+	main {
+		padding: 3em;
+	}
 }
